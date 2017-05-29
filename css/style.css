@@ -1,0 +1,34 @@
+body, html, p, span {
+  padding: 0;
+  margin: 0;
+}
+
+body .first, html .first, p .first, span .first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+body .first .full, html .first .full, p .first .full, span .first .full {
+  width: 80%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body .second, html .second, p .second, span .second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+body .second .half, html .second .half, p .second .half, span .second .half {
+  width: 40%;
+  padding: 5px;
+  box-sizing: border-box;
+}
